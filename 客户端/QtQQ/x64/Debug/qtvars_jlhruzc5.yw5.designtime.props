@@ -1,0 +1,12 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+<Qt_DEFINES_>UNICODE;_UNICODE;WIN32;WIN64;QT_XML_LIB;QT_SQL_LIB;QT_WEBENGINE_LIB;QT_WEBENGINEWIDGETS_LIB;QT_WEBENGINECORE_LIB;QT_WEBCHANNEL_LIB;QT_QUICK_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_PRINTSUPPORT_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_POSITIONING_LIB;QT_CORE_LIB</Qt_DEFINES_>
+<Qt_INCLUDEPATH_>E:/QT/5.9.6/msvc2017_64/include;E:/QT/5.9.6/msvc2017_64/include/QtXml;E:/QT/5.9.6/msvc2017_64/include/QtSql;E:/QT/5.9.6/msvc2017_64/include/QtWebEngine;E:/QT/5.9.6/msvc2017_64/include/QtWebEngineWidgets;E:/QT/5.9.6/msvc2017_64/include/QtWebEngineCore;E:/QT/5.9.6/msvc2017_64/include/QtWebChannel;E:/QT/5.9.6/msvc2017_64/include/QtQuick;E:/QT/5.9.6/msvc2017_64/include/QtQml;E:/QT/5.9.6/msvc2017_64/include/QtNetwork;E:/QT/5.9.6/msvc2017_64/include/QtPrintSupport;E:/QT/5.9.6/msvc2017_64/include/QtWidgets;E:/QT/5.9.6/msvc2017_64/include/QtGui;E:/QT/5.9.6/msvc2017_64/include/QtANGLE;E:/QT/5.9.6/msvc2017_64/include/QtPositioning;E:/QT/5.9.6/msvc2017_64/include/QtCore</Qt_INCLUDEPATH_>
+<Qt_LIBS_>E:\QT\5.9.6\msvc2017_64\lib\Qt5Cored.lib;E:\QT\5.9.6\msvc2017_64\lib\Qt5Positioningd.lib;E:\QT\5.9.6\msvc2017_64\lib\Qt5Networkd.lib;E:\QT\5.9.6\msvc2017_64\lib\Qt5Qmld.lib;E:\QT\5.9.6\msvc2017_64\lib\Qt5WebChanneld.lib;E:\QT\5.9.6\msvc2017_64\lib\Qt5Guid.lib;E:\QT\5.9.6\msvc2017_64\lib\Qt5Widgetsd.lib;E:\QT\5.9.6\msvc2017_64\lib\Qt5PrintSupportd.lib;E:\QT\5.9.6\msvc2017_64\lib\Qt5Quickd.lib;E:\QT\5.9.6\msvc2017_64\lib\Qt5WebEngineCored.lib;E:\QT\5.9.6\msvc2017_64\lib\Qt5WebEngineWidgetsd.lib;E:\QT\5.9.6\msvc2017_64\lib\Qt5WebEngined.lib;E:\QT\5.9.6\msvc2017_64\lib\Qt5Sqld.lib;E:\QT\5.9.6\msvc2017_64\lib\Qt5Xmld.lib;shell32.lib;E:\QT\5.9.6\msvc2017_64\lib\qtmaind.lib</Qt_LIBS_>
+</PropertyGroup>
+  <ItemGroup>
+    <QtVar Include="Qt_DEFINES_"><Value>$(Qt_DEFINES_)</Value></QtVar>
+<QtVar Include="Qt_INCLUDEPATH_"><Value>$(Qt_INCLUDEPATH_)</Value></QtVar>
+<QtVar Include="Qt_LIBS_"><Value>$(Qt_LIBS_)</Value></QtVar>
+  </ItemGroup>
+</Project>
